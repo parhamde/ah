@@ -1,6 +1,6 @@
 # section 1
 
-v0 = eval(input("Please enter v0 : "))
+v0 = eval(input("Please enter a value : "))
 v0 *=1600/3600 # v0 = v0 * 1600 +-*/**
 
 a = eval(input("Enter a (enter positive): "))
@@ -8,7 +8,7 @@ a = eval(input("Enter a (enter positive): "))
 # v = at+v0 ==> t=v0/a
 t = v0/a
 
-t_delay = eval(input("Please enter t delay : "))
+t_delay = eval(input("Please enter time delay : "))
 
 print(f"Total time is : {t+t_delay} s")
 
